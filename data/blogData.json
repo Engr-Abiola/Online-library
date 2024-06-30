@@ -1,0 +1,54 @@
+{
+  "blogs":[
+    {
+        "id":1,
+        "title":"JS",
+        "author":"Brendan Eich",
+        "body" :"JS is the most used web language",
+        "year":1995
+    },
+     {
+        "id":2,
+        "title":"React",
+        "author":"Jordan Walke",
+        "body" :"JS is the most used web language",
+        "year":2011
+    },
+     {
+        "id":3,
+        "title":"Nextjs",
+        "author":"Guillermo Rauch",
+        "body" :"JS is the most used web language",
+        "year":2016
+    },
+    {
+        "id":4,
+        "title":"Typescript",
+        "author":"Anders Hejlsberg ",
+        "body" :"JS is the most used web language",
+        "year":2012
+    },
+    {
+        "id":5,
+        "title":"Nodejs",
+        "author":"Ryan Dahl",
+        "body" :"JS is the most used web language",
+        "year":2009
+    },
+    {
+        "id":6,
+        "title":"Expressjs",
+        "author":"TJ Holowaychuk, StrongLoop and others",
+        "body" :"JS is the most used web language",
+        "year":2010
+    },
+    {
+        "id":7,
+        "title":"Mongodb",
+        "author":"Eliot Horowitz and Dwight Merriman",
+        "body" :"no database",
+        "year":2007
+    }
+
+  ]
+}

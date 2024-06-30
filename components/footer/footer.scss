@@ -1,0 +1,49 @@
+#footer{
+    display:flex;
+}
+#footer> div
+{
+ flex-grow: 1;
+}
+/*
+#c{
+    margin-left: 5px;
+    border-right:2px solid;
+  }
+
+#l{
+    margin-left: 5px;
+    border-right:2px solid;
+  }
+*/
+#r{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px; 
+  }
+#r>div{flex-grow: 1;}
+
+#l,#c{border-right: 3px solid black;}
+
+
+/*Extral small screen responsive(315px min)*/
+ @media(max-width:475px){
+    #footer{
+        display: flex;
+         flex-wrap: wrap; 
+      } 
+    #r{
+        display: flex;
+      }
+     
+}
+
+/*medium phone to tab/ipad screens responsive*/
+@media(max-width:900px) and (min-width:475px){
+    #r{
+        display: flex;flex-direction: column;
+        color:red
+      }
+
+}

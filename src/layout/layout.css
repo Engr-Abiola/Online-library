@@ -1,0 +1,35 @@
+#layout{
+    display: grid; 
+    grid-template-areas: 'head head head head head'
+                         'nav nav nav nav nav'
+                         'content content content content sidebar'
+                         'footer footer footer footer footer';
+    
+}
+
+#header{
+    grid-area:head;
+    }
+    
+#nav{
+    grid-area:nav;
+    position :sticky;
+    top:0;
+    }
+
+#sidebar{grid-area: sidebar}
+#content{grid-area: content}
+#footer{grid-area: footer}
+
+/*Responsive Design for mobile*/
+  @media(max-width:475px) and (min-width:315px) {
+    #layout {
+        display:flex; 
+        flex-direction: column;
+        background-color:grey; 
+        h1{text-align: center;}
+  }  
+  
+} 
+
+

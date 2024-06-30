@@ -1,0 +1,21 @@
+#hd {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+  width: 100%;
+}
+
+/* #logo{width: 50%;} */
+#connect {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#connect a {
+  text-decoration: none;
+  font-size: larger;
+  font-family: Georgia;
+  font-weight: bold;
+}/*# sourceMappingURL=header.css.map */
